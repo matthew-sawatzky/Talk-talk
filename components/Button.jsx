@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native";
 import { theme } from "../constants/theme";
 import { hp } from "../helpers/common";
+import { Pressable, Text, View } from "react-native";
 
 const Button = ({
   buttonStyle,
@@ -45,7 +46,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderCurve: "continuous",
-    borderRadius: theme.raidus.xl,
+    borderRadius: theme.radius.xl,
   },
   text: {
     fontSize: hp(2.5),
